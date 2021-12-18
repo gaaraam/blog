@@ -16,8 +16,8 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
+  title: 가람로그
+  description: ""
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
   # author: ["Me", "You"] # multiple authors
@@ -33,7 +33,8 @@ params:
   ShowCodeCopyButtons: false
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
+  comments: true
+  dispusShortname: yourdiscussshortname
   hidemeta: false
   hideSummary: false
   showtoc: false
@@ -70,8 +71,11 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: "오늘 배운 건 오늘 정리하자."
+    Content: 영국 잉글랜드의 이튼 칼리지를 구경하던 한 관광객이 이렇게 완벽한 잔디밭을 어떻게 만들 수 있는지 정원사에게 물었다. 정원사는 "그건 쉬워요." 라고 대답했다. "매일 아침 이슬을 털어주고, 이틀에 한 번 잔디를 깎아주고, 일주일에 한 번 잔디밭을 골라주면 되지요."
+            "그게 다에요?" 관광객은 물었다.
+            "그게 답니다." 정원사는 대답했다. "그렇게 500년만 하시면 당신 잔디밭도 이 정도로 괜찮아질 겁니다."
+
 
   socialIcons:
     - name: instagram
@@ -95,7 +99,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/gaaraam/blog/tree/master/content/post"
+    URL: "https://github.com/gaaraam/blog/tree/master/content/"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -126,7 +130,7 @@ menu:
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:
-#     highlight:
+ #    highlight:
 #         # anchorLineNos: true
 #         codeFences: true
 #         guessSyntax: true
