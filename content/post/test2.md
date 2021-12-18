@@ -1,9 +1,10 @@
-title: "My 1st post"
-date: 2020-09-15T11:30:03+00:00
+---
+title: "첫 글"
+date: {{ .Date }}
 # weight: 1
 # aliases: ["/first"]
-tags: ["first"]
-author: "Me"
+tags: ["test"]
+author: "gaaraam"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
@@ -20,3 +21,4 @@ searchHidden: true
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
+---
